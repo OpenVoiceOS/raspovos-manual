@@ -1,15 +1,6 @@
 # Bem-vindo ao OpenVoiceOS e ao seu novo dispositivo raspOVOS
 
-[OpenVoiceOS.org](https://OpenVoiceOS.org)
- 
- raspOVOS is a complete, customizable, and open source voice assistant developed to run on a Raspberry Pi.  (Tested with 3b/4/5)
- 
- **Github links:**
- [OpenVoiceOS](https://github.com/OpenVoiceOS)
- [raspOVOS](https://github.com/OpenVoiceOS/raspOVOS)
- 
- **Matrix chat room**
- [OVOS support](https://matrix.to/#/#OpenVoiceOS-Support:matrix.org)
+[OpenVoiceOS.org](https://OpenVoiceOS.org)<br><br> raspOVOS é um assistente de voz completo, personalizável e de código aberto desenvolvido para Raspberry Pi. (Testado com 3b/4/5)<br><br> **Links do Github:**<br> [OpenVoiceOS](https://github.com/OpenVoiceOS)<br> [raspOVOS](https://github.com/OpenVoiceOS/raspOVOS)<br><br> **Sala de bate-papo Matrix**<br> [Suporte OVOS](https://matrix.to/#/#OpenVoiceOS-Support:matrix.org)
 
 ---
 
@@ -17,7 +8,7 @@
 
 OVOS (OpenVoiceOS) é uma coleção de pacotes Python que quando reunidos criam um assistente de voz INCRÍVEL e orientado à privacidade, capaz de rodar totalmente no dispositivo ou em uma LAN local. [^1]
 
-raspOVOS is a modified image of [raspberry pi OS](https://www.raspberrypi.com/software/) containing the OVOS software stack.
+raspOVOS é uma imagem modificada do [Raspberry Pi OS](https://www.raspberrypi.com/software/) que contém o software OVOS.
 
 O raspOVOS é especial por causa de um software especial que permite a detecção automática e configuração de vários dispositivos, incluindo microfones USB, HATs de microfone reSpeaker e outros. [^2]
 
@@ -25,16 +16,7 @@ O raspOVOS é especial por causa de um software especial que permite a detecçã
 
 ### Primeira inicialização com seu dispositivo raspOVOS
 
-Depending on the version of Pi that is used, determines how fast the first boot will take.  A Pi3b will take SEVERAL minutes to perform the first boot.
- 
- If you have a screen attached, you can view the boot process happening.
- The first boot will finish the install process by resizing your disk and enabling all of the OVOS services.
- 
- **NOTE** This is a headless device and you will be prompted with a voice on how to proceed with your first setup.
- 
- After a few minutes, depending on your device, you will here a voice prompt on how to setup your WiFi.  LAN connections will skip this step.
- 
- Expect a prompt such as this.
+Dependendo da versão do Pi que é usada, determina quão rápido o primeiro boot vai ser. Um Pi3b vai demorar VÁRIOS minutos para executar o primeiro boot.<br><br> Se você tiver uma tela anexada, poderá visualizar o processo de inicialização acontecendo.<br> A primeira inicialização finalizará o processo de instalação redimensionando o seu disco e habilitando todos os serviços do OVOS.<br><br> **OBSERVAÇÃO:** Este é um dispositivo sem interface e você receberá uma mensagem de voz sobre como prosseguir com sua primeira configuração.<br><br> Após alguns minutos, dependendo do seu dispositivo, você ouvirá um prompt de voz sobre como configurar o  WiFi. Conexões LAN não tem esta etapa.<br><br> Espere uma mensagem como essa.
 
 > "Eu criei uma rede WiFi temporária chamada OVOS. Conecte-se a ela pelo seu telefone ou computador e vá para OpenVoiceOS.com. Escolha a rede WiFi da lista à qual você gostaria de conectar seu dispositivo."
 
@@ -110,28 +92,11 @@ Dada uma entrada de
     - Obtenha uma tabela completa da configuração unida, do usuário ( `-u` ), do sistema ( `-s` ) ou remota ( `-r` ).
          Isso pode ser ainda mais refinado passando um `--section` , que pode ser listado com `ovos-config show -l`
 
-**ovos-listen**
- 
- `ovos-listen` activates the microphone without using a wakeword. eg "Hey Mycroft"
- Enter `ovos-listen` into the terminal and ask a question with your voice.
- **ovos-speak**
- 
- `ovos-speak <phrase>` Have your OVOS device say what you type.
- 
- **ovos-say-to**
- 
- `ovos-say-to <phrase>`  Send an utterance, command, to your OVOS device as if it was spoken.
- \
+**ovos-listen**<br><br> `ovos-listen` ativa o microfone sem usar uma palavra de ativação. por exemplo "Hey Mycroft"<br> Digite `ovos-listen` no terminal e faça uma pergunta com sua voz.<br> **ovos-speak**<br><br> `ovos-speak <phrase>` Faça com que seu dispositivo OVOS diga o que você digita.<br><br> **ovos-say-to**<br><br> `ovos-say-to <phrase>` Envie uma declaração, um comando, para seu dispositivo OVOS como se fosse falado.<br> \
 
 ### Ver a documentação
 
-
- **ovos-docs-viewer**
- 
- `ovos-docs-viewer <community/technical/hivemind/messages>`
- 
- You can view the OVOS documentation in your terminal.
- \
+<br>**ovos-docs-viewer**<br><br> `ovos-docs-viewer <community/technical/hivemind/messages>`<br><br> Você pode visualizar a documentação do OVOS no seu terminal.<br> \
 
 ### Depuração
 
